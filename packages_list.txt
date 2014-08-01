@@ -15,38 +15,37 @@ medcl/elasticsearch.partialupdate/1.2.2
 
 4onni/elasticsearch-analysis-ansj/0.2
 
+medcl/elasticsearch-river-email/0.3.0
+medcl/elasticsearch-analysis-stconvert/1.3.0
+medcl/elasticsearch-analysis-string2int/1.3.0
+
+
+
 
 #site plugins
-
+medcl/rtf
+http://localhost:9200/_plugin/rtf/
 
 mobz/elasticsearch-head
-
-url:http://localhost:9200/_plugin/head/
-
-
+http://localhost:9200/_plugin/head/
 
 lukas-vlcek/bigdesk
-
-url:http://localhost:9200/_plugin/bigdesk
-
+http://localhost:9200/_plugin/bigdesk
 
 polyfractal/elasticsearch-segmentspy
+http://localhost:9200/_plugin/segmentspy/
 
-url:http://localhost:9200/_plugin/segmentspy/
+elasticsearch/marvel
+http://localhost:9200/_plugin/marvel/
 
+lmenezes/elasticsearch-kopf
+http://localhost:9200/_plugin/kopf
 
-#coming soon
-medcl/elasticsearch-carrot2/
-medcl/elasticsearch-river-email/
+karmi/elasticsearch-paramedic
+http://localhost:9200/_plugin/paramedic/
 
-medcl/elasticsearch-analysis-paoding/
-medcl/elasticsearch-analysis-stconvert/
-medcl/elasticsearch-analysis-string2int/
-
-
-
-
-
+polyfractal/elasticsearch-inquisitor
+http://localhost:9200/_plugin/inquisitor
 
 
 
